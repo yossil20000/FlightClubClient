@@ -62,7 +62,7 @@ export default function TextMobileStepper() {
       <Box sx={{ height: 255, maxWidth: 400, width: '100%', p: 2 }}>
         {steps[activeStep].description}
       </Box>
-      <BasicCard title={steps[activeStep].label} description={steps[activeStep].description} ></BasicCard>
+      {/* <BasicCard title={steps[activeStep].label} description={steps[activeStep].description} ></BasicCard> */}
       <MobileStepper
         variant="text"
         steps={maxSteps}
